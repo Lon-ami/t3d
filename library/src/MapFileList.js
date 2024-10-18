@@ -293,12 +293,26 @@ module.exports = {
       ]
     },
     {
+      name: "(X5) Guild Wars 2: Janthir Wilds (JW) - (Z) Zone - Janthir [Wild]",
+      maps: [
+        { fileName: "3406364.data", name: "(X5.0, X5.5) The Tyrian Alliance: Guild Initiative Headquarters, Strangers among Lands: Guild Initiative Headquarters <Lion's Arch> [MapValleyArchEx5Intro]" },
+        { fileName: "3414888.data", name: "(Z.1) Lowland Shore [MapWildDelta]" },
+        { fileName: "3415804.data", name: "(Z.2) Janthir Syntri [MapWildIsland]" }
+      ]
+    },
+    {
       name: "(GH) Guild Halls",
       maps: [
         { fileName: "1255378.data", name: "(GH.1-2) Gilded Hollow [MapGuildCavern]" },
         { fileName: "1256064.data", name: "(GH.1-2) Lost Precipice [MapGuildHeights]" },
         { fileName: "1843274.data", name: "(GH.3) Windswept Haven [MapGuildPyramid]" },
         { fileName: "2648082.data", name: "(GH.4) Isle of Reflection [MapGuildIsle]" }
+      ]
+    },
+    {
+      name: "(HS) Homestead",
+      maps: [
+        { fileName: "3399578.data", name: "(HS.1) Hearth's Glow [MapHomesteadBoreal]" }
       ]
     },
     {
@@ -326,20 +340,20 @@ module.exports = {
       ]
     },
     {
-      name: "Cooperative - (R) Raids",
+      name: "Cooperative - (RD) Raids",
       maps: [
-        { fileName: "1427048.data", name: "(Lobby, R.0) Lion's Arch Aerodrome, Special Forces Training Area [MapValleyArchRaidLobby]" },
-        { fileName: "1151420.data", name: "(R.1) Spirit Vale [MapRaidJungle01]" },
-        { fileName: "1383309.data", name: "(R.2) Salvation Pass [MapE1R2]" },
-        { fileName: "1454070.data", name: "(R.3) Stronghold of the Faithful [MapE1R3]" },
-        { fileName: "1645215.data", name: "(R.4) Bastion of the Penitent [MapE1R4]" },
-        { fileName: "1906329.data", name: "(R.5) Hall of Chains [MapE1R5]" },
-        { fileName: "2045250.data", name: "(R.6) Mythwright Gambit [MapE2R2]" },
-        { fileName: "2157962.data", name: "(R.7) The Key of Ahdashim [MapE2R3]" }
+        { fileName: "1427048.data", name: "(Lobby, RD.0) Lion's Arch Aerodrome, Special Forces Training Area [MapValleyArchRaidLobby]" },
+        { fileName: "1151420.data", name: "(RD.1) Spirit Vale [MapRaidJungle01]" },
+        { fileName: "1383309.data", name: "(RD.2) Salvation Pass [MapE1R2]" },
+        { fileName: "1454070.data", name: "(RD.3) Stronghold of the Faithful [MapE1R3]" },
+        { fileName: "1645215.data", name: "(RD.4) Bastion of the Penitent [MapE1R4]" },
+        { fileName: "1906329.data", name: "(RD.5) Hall of Chains [MapE1R5]" },
+        { fileName: "2045250.data", name: "(RD.6) Mythwright Gambit [MapE2R2]" },
+        { fileName: "2157962.data", name: "(RD.7) The Key of Ahdashim [MapE2R3]" }
       ]
     },
     {
-      name: "Competitive - Player vs. Player (PvP) - (CQ) Conquest, (MB) Murderball, (SH) Stronghold, (TDM) Team Deathmatch",
+      name: "Competitive - (PvP) Player vs. Player - (CQ) Conquest, (MB) Murderball, (SH) Stronghold, (TDM) Team Deathmatch, (PS) Push",
       maps: [
         { fileName: "132570.data", name: "(Lobby) Heart of the Mists" },
         { fileName: "197249.data", name: "(Lobby) Heart of the Mists [MapPvPLobby]" },
@@ -353,7 +367,7 @@ module.exports = {
         { fileName: "132837.data", name: "(CQ.1-4) Forest of Niflhel" },
         { fileName: "197545.data", name: "(CQ.1-4) Forest of Niflhel [MapPvPConquestForest]" },
         { fileName: "376916.data", name: "(CQ.1-4) Legacy of the Foefire [MapPvPConquestGuild]" },
-        { fileName: "467374.data", name: "(CQ.1-4) Raid on the Capricorn" },
+        { fileName: "467374.data", name: "(CQ.1-4) Raid on the Capricorn [MapPvPConquestCoast]" },
         { fileName: "520609.data", name: "(CQ.5) Temple of the Silent Storm [MapPvPConquestDojo]" },
         { fileName: "556199.data", name: "(CQ.6) Spirit Watch" },
         { fileName: "1473061.data", name: "(CQ.6) Spirit Watch [MapPVPConquestSpirit2]" },
@@ -375,11 +389,12 @@ module.exports = {
         { fileName: "871093.data", name: "(SH) Battle of Champion's Dusk [MapPvPStrongholdCityMercs]" },
         { fileName: "1712986.data", name: "(TDM.1) Hall of the Mists [MapHallway2v2]" },
         { fileName: "1712945.data", name: "(TDM.3) Asura Arena [Mapasura2v2]" },
-        { fileName: "2187125.data", name: "(TDM.4) Auric Span [MapJungle2v2]" }
+        { fileName: "2187125.data", name: "(TDM.4) Auric Span [MapJungle2v2]" },
+        { fileName: "3424867.data", name: "(PS) Push Prototype—BETA [MapPVPConquestNornia]" }
       ]
     },
     {
-      name: "Competitive - World vs. World (WvW) - (MW) Mist War, (EotM) Edge of the Mists",
+      name: "Competitive - (WvW) World vs. World - (MW) Mist War, (EotM) Edge of the Mists",
       maps: [      
         { fileName: "2113077.data", name: "(Lounge) Armistice Bastion [MapWvwLounge]" },
         { fileName: "131235.data", name: "(MW) Eternal Battlegrounds, Obsidian Sanctum" },
@@ -463,26 +478,27 @@ module.exports = {
         { fileName: "132853.data", name: "(((Empty Box)))" },
         { fileName: "184799.data", name: "[MapDummy]" },
         { fileName: "193081.data", name: "Lake Doric [MapValleyReach]" },
-        { fileName: "197562.data", name: "[MapPvPBlackBox]" },
+        { fileName: "197562.data", name: "Preparing for PvP [MapPvPBlackBox]" },
         { fileName: "606030.data", name: "Basket Brawl [MapBasketBrawl]" },
         { fileName: "875614.data", name: "[MapTutorialChina]" },
         { fileName: "969964.data", name: "Verdant Brink <Verdant Brink> [MapRootsAfterShip]" },
-        { fileName: "1255516.data", name: "[MapGuildColiseum]" },
+        { fileName: "1255516.data", name: "Guild Coliseum [MapGuildColiseum]" },
         { fileName: "1255634.data", name: "(((Unknown Town)))" },
         { fileName: "1282201.data", name: "(((WvW)))" },
-        { fileName: "1498193.data", name: "[MapPvPConquestTemp]" },
-        { fileName: "1513556.data", name: "[MapPvPInfection2]" },
-        { fileName: "1513607.data", name: "[MapPvPConquestTest_01]" },
-        { fileName: "1513620.data", name: "[MapPvPConquestTest_02]" },
-        { fileName: "1513675.data", name: "[MapPvPConquestTest_04]" },
+        { fileName: "1498193.data", name: "Conquest Prototype [MapPvPConquestTemp]" },
+        { fileName: "1513556.data", name: "Competitive PvP Infection 2 (Valley) [MapPvPInfection2]" },
+        { fileName: "1513607.data", name: "Conquest Vine [MapPvPConquestTest_01]" },
+        { fileName: "1513620.data", name: "Conquest Islands [MapPvPConquestTest_02]" },
+        { fileName: "1513675.data", name: "Conquest Mocap [MapPvPConquestTest_04]" },
         { fileName: "1956299.data", name: "[MapDesertArchipelago_Instance]" },
         { fileName: "2204239.data", name: "<Grothmar Valley> [MapRegrownBloodCinematic]" },
         { fileName: "2224545.data", name: "Jaga Moraine [MapAlpinemoraine]" },
         { fileName: "2224624.data", name: "[MapAlpineMoraineFinalInstance]" },
-        { fileName: "2257438.data", name: "[MapTest]" },
+        { fileName: "2257438.data", name: "Test [MapTest]" },
         { fileName: "2649061.data", name: "<Grothmar Valley> [MapRegrownBlood_CinematicEOD]" },
         { fileName: "2644298.data", name: "[MapJadeSeaWhirlpool]" },
-        { fileName: "2689589.data", name: "<Desert Highlands> [MapDesertHighlandsE3]" }
+        { fileName: "2689589.data", name: "<Desert Highlands> [MapDesertHighlandsE3]" },
+        { fileName: "3323396.data", name: "[???]" }
       ]
     }
   ]
